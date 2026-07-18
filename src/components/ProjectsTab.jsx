@@ -124,9 +124,22 @@ export default function ProjectsTab() {
                 <p className="mt-3 leading-7 text-academic-ink">{selectedProject.target}</p>
               </div>
               <div className="rounded-[1.5rem] border border-academic-ink/15 bg-white p-6">
-                <span className="section-kicker">Quá trình thực hiện</span>
-                <p className="mt-3 text-sm leading-7 text-academic-muted">{selectedProject.process}</p>
-              </div>
+  <span className="section-kicker">Quá trình thực hiện</span>
+  <ol className="mt-4 space-y-4">
+    {selectedProject.process?.map((item, idx) => (
+      <li key={idx} className="flex gap-3">
+        <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border-2 border-academic-ink bg-academic-blush font-mono text-xs font-bold text-academic-deep-rose">
+          {idx + 1}
+        </span>
+        <div>
+          <p className="font-bold text-sm text-academic-ink">{item.step}</p>
+          <p className="mt-1 text-sm leading-6 text-academic-muted">{item.detail}</p>
+        </div>
+      </li>
+    ))}
+  </ol>
+</div>
+        
               <div className="flex flex-wrap gap-2">{selectedProject.skills?.map((skill) => <span className="tag" key={skill}>{skill}</span>)}</div>
             </div>
           </div>

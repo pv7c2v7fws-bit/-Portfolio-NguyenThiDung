@@ -33,8 +33,12 @@ export const portfolioData = {
       shortDesc: "Tổ chức không gian làm việc số và thiết lập quy tắc quản lý dữ liệu cá nhân.",
       skills: ["Quản lý hệ điều hành", "Tổ chức dữ liệu", "Lưu trữ đám mây"],
       target: "Trình bày cấu trúc thư mục tối ưu và quy tắc đặt tên tệp đã thiết lập.",
-      process: "Trước khi tạo thư mục, tôi phân tích nhu cầu lưu trữ theo chu kỳ học tập (môn học → kỳ học → loại tài liệu) thay vì gộp chung một chỗ, để dễ tra cứu khi số lượng file tăng lên. Cây thư mục được thiết kế theo 3 cấp: Môn học > Chương/Tuần > Loại tài liệu (Bài giảng, Bài tập, Tài liệu tham khảo). Quy tắc đặt tên file thống nhất dạng không dấu, phân tách bằng gạch dưới (vd. ThucHanh_hotensinhvien) để tránh lỗi khi đồng bộ trên các hệ điều hành khác nhau và thuận tiện khi tìm kiếm bằng từ khóa. Sau khi hoàn thiện, thư mục được đồng bộ lên lưu trữ đám mây để có thể truy cập và sao lưu từ nhiều thiết bị.",
-
+      process: [
+  { step: "Phân tích nhu cầu", detail: "Xác định nhu cầu lưu trữ theo chu kỳ học tập thay vì gộp chung, để dễ tra cứu khi số lượng file tăng." },
+  { step: "Thiết kế cấu trúc thư mục", detail: "Xây dựng cây thư mục 3 cấp: Môn học > Chương/Tuần > Loại tài liệu (Bài giảng, Bài tập, Tài liệu tham khảo)." },
+  { step: "Thiết lập quy tắc đặt tên", detail: "Đặt tên file không dấu, phân tách bằng gạch dưới (vd. ThucHanh_hotensinhvien) để tránh lỗi đồng bộ và dễ tìm kiếm." },
+  { step: "Đồng bộ hóa", detail: "Đồng bộ thư mục lên lưu trữ đám mây để truy cập và sao lưu từ nhiều thiết bị." }
+],
       evidenceImg: "/images/Bài 1.png",
       report: "/docs/Bài 1.pdf",
       status: "Hoàn thành"
