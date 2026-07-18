@@ -6,7 +6,7 @@ export const portfolioData = {
     id: "K70",
     major: "Ngành Quản trị kinh doanh",
     university: "Trường Đại học Kinh tế - Đại học Quốc gia Hà Nội (UEB - VNU)",
-    bio: "Portfolio học tập ghi lại quá trình ứng dụng công nghệ số và AI trong việc tổ chức tài liệu, tìm kiếm thông tin, trình bày sản phẩm học thuật và khám phá văn hóa Việt Nam.",
+    bio: "Portfolio học tập ghi lại quá trình khám phá ứng dụng công nghệ số và AI trong việc tổ chức tài liệu, tìm kiếm thông tin, trình bày sản phẩm học thuật.",
     skills: [
       "Business Management",
       "Digital Marketing",
