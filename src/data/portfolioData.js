@@ -100,7 +100,6 @@ export const portfolioData = {
     }
   ],
   rubric: [
-    { criteria: "Thiết kế và cấu trúc Portfolio", excellent: "Chuyên nghiệp, sáng tạo, điều hướng tốt, UI/UX hiện đại.", status: "Hoàn thành", action: "Đã có đầy đủ trang giới thiệu, minh chứng và tổng kết" },
     { criteria: "Bài 1: Quản lý tệp/thư mục", excellent: "Cấu trúc tối ưu, quy tắc đặt tên rõ ràng, minh họa sắc nét.", status: "Hoàn thành", action: "Đã có ảnh minh họa và báo cáo chi tiết quy tắc đặt tên" },
     { criteria: "Bài 2: Tìm kiếm & Đánh giá", excellent: "Bảng đánh giá CRAAP chi tiết, dùng toán tử nâng cao hiệu quả.", status: "Hoàn thành", action: "Đã có bảng đánh giá nguồn tin và báo cáo CRAAP đầy đủ" },
     { criteria: "Bài 3: Viết Prompt hiệu quả", excellent: "So sánh rõ ràng trước/sau, phân tích lỗi và cải tiến sâu sắc.", status: "Hoàn thành", action: "Đã có so sánh prompt gốc và prompt cải tiến kèm kết quả" },
