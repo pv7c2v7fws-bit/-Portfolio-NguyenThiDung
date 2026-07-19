@@ -122,7 +122,7 @@ export const portfolioData = {
   { step: "Nhận diện rủi ro", detail: "Đối chiếu với thực tế sử dụng AI để rút ra rủi ro phổ biến: phụ thuộc AI, không kiểm chứng, lộ dữ liệu cá nhân." },
   { step: "Đúc kết nguyên tắc", detail: "Xây dựng 5 nguyên tắc cá nhân, mỗi nguyên tắc gắn với một rủi ro cụ thể đã quan sát được." }
 ],
-      evidenceImg: "public/images/Bài 6.png",
+      evidenceImg: "/images/Bài 6.png",
       report: "/docs/Bài 6.pdf",
       status: "Hoàn thành"
     }
