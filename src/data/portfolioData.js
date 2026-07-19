@@ -39,8 +39,8 @@ export const portfolioData = {
   { step: "Thiết lập quy tắc đặt tên", detail: "Đặt tên file không dấu, phân tách bằng gạch dưới (vd. ThucHanh_hotensinhvien) để tránh lỗi đồng bộ và dễ tìm kiếm." },
   { step: "Đồng bộ hóa", detail: "Đồng bộ thư mục lên lưu trữ đám mây để truy cập và sao lưu từ nhiều thiết bị." }
 ],
-      evidenceImg: "/images/Bài 1.png",
-      report: "/docs/Bài 1.pdf",
+evidenceImg: "/images/bai1.png",
+report: "/docs/bai1.pdf",
       status: "Hoàn thành"
     },
     {
@@ -56,8 +56,8 @@ export const portfolioData = {
   { step: "Áp dụng toán tử tìm kiếm", detail: "Sử dụng AND, OR, filetype:pdf, site: trên Google Scholar để lọc nhanh tài liệu đã qua phản biện." },
   { step: "Đánh giá độ tin cậy", detail: "Áp dụng 5 tiêu chí CRAAP (Currency, Relevance, Authority, Accuracy, Purpose) để loại nguồn thiếu tin cậy." }
 ],
-      evidenceImg: "/images/Bài 2.png",
-      report: "/docs/Bài 2.pdf",
+evidenceImg: "/images/bai2.png",
+report: "/docs/bai2.pdf",
       status: "Hoàn thành"
     },
     {
@@ -72,8 +72,8 @@ export const portfolioData = {
   { step: "Tái cấu trúc prompt", detail: "Áp dụng mô hình 4 thành phần: Vai trò (Role), Ngữ cảnh (Context), Nhiệm vụ (Task), Định dạng đầu ra (Format)." },
   { step: "So sánh kết quả", detail: "Đối chiếu 2 phiên bản, nhận thấy prompt có cấu trúc giúp AI bám sát yêu cầu và giảm lan man rõ rệt." }
 ],
-      evidenceImg: "/images/Bài 3.png",
-      report: "/docs/Bài 3.pdf",
+evidenceImg: "/images/bai3.png",
+report: "/docs/bai3.pdf",
       status: "Hoàn thành"
     },
     {
@@ -89,8 +89,8 @@ export const portfolioData = {
   { step: "Giao tiếp nhanh (Zalo)", detail: "Trao đổi và bình chọn khi có ý tưởng chưa thống nhất giữa các thành viên." }
 ],
 
-      evidenceImg: "/images/Bài 4.png",
-      report: "/docs/Bài 4.pdf",
+      evidenceImg: "/images/bai4.png",
+report: "/docs/bai4.pdf",
       status: "Hoàn thành"
     },
     {
@@ -106,8 +106,8 @@ export const portfolioData = {
   { step: "Thiết kế & hoàn thiện", detail: "Dùng Canva AI để bố cục, tinh chỉnh màu sắc và thứ tự đọc cho hài hòa." },
   { step: "Kiểm chứng thông tin", detail: "Tự đối chiếu các số liệu AI cung cấp với nguồn xác thực để tránh sai lệch (hallucination)." }
 ],
-      evidenceImg: "/images/Bài 5.png",
-      report: "/docs/Bài 5.pdf",
+      evidenceImg: "/images/bai5.png",
+      report: "/docs/bai5.pdf",
       status: "Hoàn thành"
     },
     {
@@ -122,8 +122,8 @@ export const portfolioData = {
   { step: "Nhận diện rủi ro", detail: "Đối chiếu với thực tế sử dụng AI để rút ra rủi ro phổ biến: phụ thuộc AI, không kiểm chứng, lộ dữ liệu cá nhân." },
   { step: "Đúc kết nguyên tắc", detail: "Xây dựng 5 nguyên tắc cá nhân, mỗi nguyên tắc gắn với một rủi ro cụ thể đã quan sát được." }
 ],
-      evidenceImg: "/images/Bài 6.png",
-      report: "/docs/Bài 6.pdf",
+      evidenceImg: "/images/bai6.png",
+      report: "/docs/bai6.pdf",
       status: "Hoàn thành"
     }
   ],
