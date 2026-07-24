@@ -83,7 +83,7 @@ export default function ProjectsTab() {
   const closePreview = () => setPreviewData({ isOpen: false, url: '', type: '' });
 
   return (
-    <section id="assignments" data-reveal className="reveal section-anchor relative mt-20 space-y-12 md:mt-28" aria-labelledby="assignments-title">
+    <section id="assignments" data-reveal className="reveal section-anchor relative space-y-12" aria-labelledby="assignments-title">
       <PreviewModal previewData={previewData} onClose={closePreview} />
 
       <span className="tape right-8 top-0 hidden rotate-[-12deg] md:block" />

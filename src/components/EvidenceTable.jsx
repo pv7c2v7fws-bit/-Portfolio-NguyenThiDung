@@ -56,7 +56,7 @@ export default function EvidenceTable() {
   };
 
   return (
-    <section id="evidence" data-reveal className="reveal section-anchor relative mt-20 md:mt-28">
+    <section id="evidence" data-reveal className="reveal section-anchor relative">
       {previewData.isOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center bg-academic-ink/80 p-4 backdrop-blur-sm print:hidden" onMouseDown={closePreview}>
           <div className="flex h-full max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-[1.5rem] border-2 border-academic-ink bg-white shadow-[8px_8px_0_#1B1C1C]" onMouseDown={(event) => event.stopPropagation()}>
